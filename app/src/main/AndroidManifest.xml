@@ -1,0 +1,157 @@
+
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.code.newproject">
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/app_icon"
+		android:label="@string/app_name"
+		android:usesCleartextTraffic="true"
+		android:theme="@style/AppTheme">
+		<activity
+			android:name=".MainActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".HomeActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".PuuActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".JavaChapterActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".Pdfviewjavac1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".RdbmsActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".PythonchapActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".CnetActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".IssActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".MllActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".TocActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".AiiActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".ComingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".SrmActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".RoadmapActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".InterActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".RtuActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".RtusemsActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".Rtu5semActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".Rtu3semActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".DebugActivity"
+			android:screenOrientation="portrait" />
+		<activity
+			android:name="com.google.android.gms.ads.AdActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+			android:theme="@android:style/Theme.Translucent" />
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version" />
+		<meta-data
+			android:name="com.google.android.gms.ads.APPLICATION_ID"
+			android:value="ca-app-pub-2320758454942698~7051474957" />
+		<uses-library
+			android:name="org.apache.http.legacy"
+			android:required="false" />
+	</application>
+</manifest>
