@@ -14,17 +14,9 @@
 
 SuperNotes is a free Android app that gives CS students organized access to **notes**, **roadmaps**, **reference books**, and **interview prep** — all offline, all in one place.
 
-[Download App](https://play.google.com/store/apps/details?id=com.code.newproject) • [Report Bug](https://github.com/yourusername/SuperNotes/issues) • [Request Feature](https://github.com/yourusername/SuperNotes/issues)
+[Download App](https://play.google.com/store/apps/details?id=com.code.newproject) • [Report Bug](https://github.com/chamanswami555/SuperNotes/issues) • [Request Feature](https://github.com/chamanswami555/SuperNotes/issues)
 
 </div>
-
----
-
-## 📸 Screenshots
-
-| Dashboard | Notes | Roadmap | Books | MCQs |
-|:---------:|:-----:|:-------:|:-----:|:----:|
-| *(coming soon)* | *(coming soon)* | *(coming soon)* | *(coming soon)* | *(coming soon)* |
 
 ---
 
@@ -70,22 +62,7 @@ SuperNotes is a free Android app that gives CS students organized access to **no
 
 2. **Open** the project in Android Studio
 
-3. **Add your AdMob ID** — Create a `secrets.xml` file in `app/src/main/res/values/`:
-   ```xml
-   <resources>
-       <string name="admob_app_id">YOUR_ADMOB_APP_ID_HERE</string>
-   </resources>
-   ```
-   And update `AndroidManifest.xml`:
-   ```xml
-   <meta-data
-       android:name="com.google.android.gms.ads.APPLICATION_ID"
-       android:value="@string/admob_app_id" />
-   ```
-
-4. **Build & Run** on your device or emulator via Android Studio
-
-> ⚠️ **Note:** The app will run in test ad mode if you don't add a real AdMob ID. You only need a real ID if you plan to publish.
+3. **Build & Run** on your device or emulator via Android Studio
 
 ---
 
@@ -134,32 +111,14 @@ Contributions are what make open source amazing. Any contribution you make is **
 - 🎨 UI/UX improvements
 - 🌐 Translations for regional languages
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
-
 ---
 
 ## 🐛 Found a Bug?
 
-Open an issue [here](https://github.com/yourusername/SuperNotes/issues/new) with:
+Open an issue [here](https://github.com/chamanswami555/SuperNotes/issues/new) with:
 - Device model & Android version
 - Steps to reproduce
 - Screenshot (if possible)
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
-
----
-
-## 📬 Contact
-
-Have suggestions or want to collaborate?
-
-- 📧 Email: your@email.com
-- 🐦 Twitter/X: [@yourhandle](https://twitter.com/yourhandle)
-- 💼 LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
 
 ---
 
